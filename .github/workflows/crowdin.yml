@@ -17,6 +17,7 @@ permissions:
 jobs:
   synchronize-with-crowdin:
     name: Crowdin Sync
+    if: github.repository == 'gethomepage/homepage'
     runs-on: ubuntu-latest
 
     steps:
