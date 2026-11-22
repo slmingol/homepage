@@ -362,7 +362,7 @@ export function cleanServiceGroups(groups) {
           // gamedig
           gameToken,
 
-          // authentik, beszel, glances, immich, komga, mealie, netalertx, pihole, pfsense, speedtest
+          // arcane, authentik, beszel, glances, immich, komga, mealie, netalertx, pihole, pfsense, speedtest
           version,
 
           // glances
@@ -370,6 +370,8 @@ export function cleanServiceGroups(groups) {
           metric,
           pointsLimit,
           diskUnits,
+          chartMin,
+          chartMax,
 
           // glances, customapi, iframe, prometheusmetric
           refreshInterval,
@@ -617,8 +619,10 @@ export function cleanServiceGroups(groups) {
         }
         if (
           [
+            "arcane",
             "authentik",
             "beszel",
+            "fileflows",
             "glances",
             "immich",
             "jellyfin",
@@ -647,6 +651,8 @@ export function cleanServiceGroups(groups) {
           if (refreshInterval) widget.refreshInterval = refreshInterval;
           if (pointsLimit) widget.pointsLimit = pointsLimit;
           if (diskUnits) widget.diskUnits = diskUnits;
+          if (chartMin !== undefined) widget.chartMin = chartMin;
+          if (chartMax !== undefined) widget.chartMax = chartMax;
         }
         if (type === "mjpeg") {
           if (stream) widget.stream = stream;

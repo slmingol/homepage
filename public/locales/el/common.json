@@ -21,7 +21,16 @@
         "seconds": "δ"
     },
     "auth": {
-        "signout": "Αποσύνδεση"
+        "signout": "Αποσύνδεση",
+        "loginRequired": "Login Required",
+        "loginDescription": "Login to view your dashboard.",
+        "signIn": "Sign in",
+        "password": "Password",
+        "loginVia": "Login via {{provider}}",
+        "redirecting": "Redirecting to {{provider}}",
+        "invalidPassword": "Invalid password. Please try again.",
+        "authenticationError": "Authentication error",
+        "authenticationErrorDescription": "Auth is disabled or misconfigured."
     },
     "widget": {
         "missing_type": "Λείπει ο τύπος widget: {{type}}",
@@ -256,6 +265,16 @@
         "leech": "Leech",
         "seed": "Seed"
     },
+    "qui": {
+        "leech": "Leech",
+        "download": "Download",
+        "seed": "Seed",
+        "upload": "Upload",
+        "total": "Total",
+        "errored": "Errored",
+        "ratio": "Ratio",
+        "freeSpace": "Free"
+    },
     "qnap": {
         "cpuUsage": "Χρήση επεξεργαστή",
         "memUsage": "Χρήση μνήμης",
@@ -348,7 +367,10 @@
     "portainer": {
         "running": "Εκτελείται",
         "stopped": "Σταματημένο",
-        "total": "Σύνολο"
+        "total": "Σύνολο",
+        "applications": "Applications",
+        "services": "Services",
+        "namespaces": "Namespaces"
     },
     "suwayomi": {
         "download": "Ελήφθησαν",
@@ -780,7 +802,8 @@
         "queue": "Αναμονή",
         "processing": "Σε επεξεργασία",
         "processed": "Επεξεργασμένα",
-        "time": "Ώρα"
+        "time": "Ώρα",
+        "failed": "Failed"
     },
     "firefly": {
         "networth": "Καθαρή αξία",
@@ -858,6 +881,14 @@
         "books": "Βιβλία",
         "reading": "Ανάγνωση",
         "finished": "Ολοκληρώθηκε"
+    },
+    "bookorbit": {
+        "books": "Books",
+        "authors": "Authors",
+        "series": "Series",
+        "storage": "Storage",
+        "reading": "Reading",
+        "finished": "Finished"
     },
     "jdownloader": {
         "downloadCount": "Αναμονή",
@@ -968,6 +999,11 @@
         "movieReclaimable": "Movie Reclaimable",
         "showReclaimable": "Show Reclaimable",
         "totalCapacity": "Συνολική χωρητικότητα"
+    },
+    "netbird": {
+        "online": "Online Peers",
+        "users": "Users",
+        "login_expired": "Login Expired"
     },
     "netdata": {
         "warnings": "Προειδοποιήσεις",
@@ -1107,7 +1143,15 @@
         "cpu": "CPU",
         "memory": "MEM",
         "disk": "Δίσκος",
-        "network": "Δίκτυο"
+        "network": "Δίκτυο",
+        "temp": "Temp",
+        "load": "Load",
+        "gpu": "GPU",
+        "uptime": "Uptime",
+        "services": "Services",
+        "updates": "Updates",
+        "battery": "Battery",
+        "agent": "Agent"
     },
     "argocd": {
         "apps": "Εφαρμογές",
@@ -1258,5 +1302,8 @@
         "wanted": "Wanted",
         "queued": "Queued",
         "leagues": "Leagues"
+    },
+    "feed": {
+        "noItems": "No items"
     }
 }

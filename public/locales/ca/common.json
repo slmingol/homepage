@@ -21,7 +21,16 @@
         "seconds": "s"
     },
     "auth": {
-        "signout": "Tanca la sessió"
+        "signout": "Tanca la sessió",
+        "loginRequired": "Cal iniciar la sessió",
+        "loginDescription": "Inicieu la sessió per veure el vostre tauler.",
+        "signIn": "Inicia la sessió",
+        "password": "Contrasenya",
+        "loginVia": "Inicia la sessió amb {{provider}}",
+        "redirecting": "S'està redirigint a {{provider}}",
+        "invalidPassword": "La contrasenya no és vàlida. Torneu-ho a provar.",
+        "authenticationError": "Error d'autenticació",
+        "authenticationErrorDescription": "L'autenticació està desactivada o mal configurada."
     },
     "widget": {
         "missing_type": "Falta el tipus de widget: {{type}}",
@@ -256,6 +265,16 @@
         "leech": "Sangonera",
         "seed": "Sembrat"
     },
+    "qui": {
+        "leech": "Sangonera",
+        "download": "Baixada",
+        "seed": "Sembrat",
+        "upload": "Pujada",
+        "total": "Total",
+        "errored": "Errors",
+        "ratio": "Ràtio",
+        "freeSpace": "Lliure"
+    },
     "qnap": {
         "cpuUsage": "Ús de CPU",
         "memUsage": "Ús de Memòria",
@@ -348,7 +367,10 @@
     "portainer": {
         "running": "En execució",
         "stopped": "Aturat",
-        "total": "Total"
+        "total": "Total",
+        "applications": "Aplicacions",
+        "services": "Serveis",
+        "namespaces": "Espais de noms"
     },
     "suwayomi": {
         "download": "Descarregat",
@@ -780,7 +802,8 @@
         "queue": "Cua",
         "processing": "Processant",
         "processed": "Processat",
-        "time": "Temps"
+        "time": "Temps",
+        "failed": "Error"
     },
     "firefly": {
         "networth": "Valor Net",
@@ -856,6 +879,14 @@
     "booklore": {
         "libraries": "Biblioteques",
         "books": "Llibres",
+        "reading": "Llegint",
+        "finished": "Acabats"
+    },
+    "bookorbit": {
+        "books": "Llibres",
+        "authors": "Autors",
+        "series": "Sèries",
+        "storage": "Emmagatzematge",
         "reading": "Llegint",
         "finished": "Acabats"
     },
@@ -968,6 +999,11 @@
         "movieReclaimable": "Pel·lícula reclamable",
         "showReclaimable": "Sèrie reclamable",
         "totalCapacity": "Capacitat total"
+    },
+    "netbird": {
+        "online": "Parells en línia",
+        "users": "Usuaris",
+        "login_expired": "Sessió caducada"
     },
     "netdata": {
         "warnings": "Avisos",
@@ -1107,7 +1143,15 @@
         "cpu": "CPU",
         "memory": "MEM",
         "disk": "Disc",
-        "network": "XARXA"
+        "network": "XARXA",
+        "temp": "Temp",
+        "load": "Càrrega",
+        "gpu": "GPU",
+        "uptime": "Temps en funcionament",
+        "services": "Serveis",
+        "updates": "Actualitzacions",
+        "battery": "Bateria",
+        "agent": "Agent"
     },
     "argocd": {
         "apps": "Apps",
@@ -1258,5 +1302,8 @@
         "wanted": "Pendents",
         "queued": "En cua",
         "leagues": "Lligues"
+    },
+    "feed": {
+        "noItems": "Sense elements"
     }
 }
